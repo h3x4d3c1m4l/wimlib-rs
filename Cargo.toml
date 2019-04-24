@@ -1,0 +1,14 @@
+[package]
+name = "wimlib-rs"
+version = "0.0.1"
+authors = ["Sander in 't Hout <sander@inthout.eu>"]
+description = "Wrapper library for wimlib."
+license = "GPL-3.0-or-later OR LGPL-3.0-or-later"
+homepage = "https://github.com/h3x4d3c1m4l/wimlib-rs"
+repository = "https://github.com/h3x4d3c1m4l/wimlib-rs.git"
+readme = "README.md"
+keywords = ["wim", "wimlib"]
+edition = "2018"
+
+[dependencies]
+wimlib-sys = "1.0"
